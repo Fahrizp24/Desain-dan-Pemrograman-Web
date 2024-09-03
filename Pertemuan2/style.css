@@ -19,6 +19,7 @@ h2{
 }
 
 body{
-    background-color: lightcyan;
+    background: url(bunga2.jpeg), url(bunga1.jpeg);
+    background-repeat: no-repeat,repeat;
     color: white;
 }
