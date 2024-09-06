@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.65; 
+    padding-bottom: 1000px;
+    background-color: #838577;
+}
+
+.container-satu {
+    background-color: aliceblue;
+    width: 800px;
+    margin: 50px auto;
+    height: 1000px;
+    border: 5px solid #1E201E;
+    box-sizing: border-box;
+    padding: 20px;
+    display: grid;
+    grid-template-areas: 
+        "sidebar-satu artikel sidebar-dua";
+    grid-template-rows: 1fr 1.5fr 1fr;
+    gap: 10px;
+}
+
+.sidebar-satu {
+    grid-area: sidebar-satu;
+    padding: 5px;
+}
+
+.artikel {
+    grid-area: artikel;
+    padding: 5px;
+}
+
+.sidebar-dua {
+    grid-area: sidebar-dua;
+    padding: 5px;
+}
