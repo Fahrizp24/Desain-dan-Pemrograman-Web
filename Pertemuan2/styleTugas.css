@@ -39,3 +39,20 @@ body {
     grid-area: sidebar-dua;
     padding: 5px;
 }
+ 
+.navbar{
+    height: 50px;
+    background-color: #1E201E;
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+.link:hover{
+    color: red;
+}
+.navbar:link{
+    color:white;
+}
+.navbar:visited{
+    color: yellowgreen;
+}
