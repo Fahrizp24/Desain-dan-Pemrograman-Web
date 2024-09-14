@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas WEB</title>
+    <link rel="stylesheet" href="styleTugas.css" type="text/css">
+    <script src="tugas.js"></script>
+</head>
+
+<body>
+    <div class="top"></div>
+    <br>
+    <hr>
+    <div class="main">
+        <table>
+            <tr>
+                <td><label for="nama">Nama</label></td>
+                <td><input type="text" size="" id="nama" name="nama"></td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat</label></td>
+                <td> <textarea name="alamat" id="alamat"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="tgllahir">Tanggal Lahir</label></td>
+                <td> <input type="date" name="tgllahir" id="tgllahir">
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="jeniskelamin">Jenis Kelamin</label>
+                </td>
+                <td>
+                    <input type="radio" id="lakilaki" name="jeniskelamin" value="lakilaki">Laki Laki <br>
+                    <input type="radio" id="perempuan" name="jeniskelamin" value="perempuan">Wanita
+
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="hobi">hobi:</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="hobi" id="hobi1" value="Berenang">Berenang
+                    <input type="checkbox" name="hobi" id="hobi2" value="Berlari">Berlari
+                    <input type="checkbox" name="hobi" id="hobi3" value="lainlain">Lain-Lain
+                </td>
+            </tr>   
+            <tr>
+                <td><label for="pekerjaan">Pekerjaan</label></td>
+                <td>
+                    <input type="radio" name="pekerjaan" id="pekerjaan1" value="Berenang">Swasta
+                    <input type="radio" name="pekerjaan" id="pekerjaan2" value="Berlari">PNS
+                    <input type="radio" name="pekerjaan" id="pekerjaan3" value="lainlain">Lain-Lain
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" name="check" id="check" value="checked">Check jika anda akan
+                    mengirimkan data ini</td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit" onclick="check()"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
