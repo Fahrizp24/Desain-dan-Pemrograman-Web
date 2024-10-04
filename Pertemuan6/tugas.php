@@ -4,6 +4,7 @@
 <head>
     <title>Data Siswa</title>
     <link rel="stylesheet" href="tugas.css">
+    <style></style>
     <script src="../jquery-3.7.1.js"></script>
     <script>
         $(document).ready(function() {
@@ -31,6 +32,15 @@
         }
         echo "</table>";
     }
+
+    function ratarata(array $data){
+        $total=0;
+        foreach ($data as $key) {
+           $total += $key[1];
+        }
+        $total /= count($data);
+        return $total;
+    }
     ?>
 
     <h2>Data Siswa</h2>
@@ -38,7 +48,11 @@
         <div class="klik">Click to show database</div>
         <hr>
         <div class="tabeldata">
-           <?php tampilkan($database) ?>
+           <?php tampilkan($database);
+            $rata = ratarata($database);
+            echo "<h2>Rata-rata Umur Siswa: ".$rata." Tahun</h2>";
+            ?>
+           
         </div>
     </div>
 </body>
