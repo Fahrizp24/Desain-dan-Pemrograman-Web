@@ -17,6 +17,11 @@
             <span id="email-error" style="color: red;"></span>
             <br>
 
+            <label for="pass">Password:</label>
+            <input type="password" name="password" id="password">
+            <span id="pass-error" style="color: red;"></span>
+            <br>
+
             <input type="submit" value="submit">
         </form>
 
@@ -52,10 +57,6 @@
             $(document).ready(function () {
                 $("#myForm").submit(function (e) {
                     e.preventDefault();
-                    var email = $("#email").val();
-                    var nama = $("#nama").val();
-                    var valid = true;
-
                     //mengumpulkan data form
                     var formData = $("#myForm").serialize();
 
