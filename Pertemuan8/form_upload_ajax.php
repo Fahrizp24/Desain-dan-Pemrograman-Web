@@ -5,7 +5,7 @@
     </head>
     <body>
         <form action="upload_ajax.php" id="uploud-form" method="post" enctype="multipart/form-data">
-            <input type="file" name="file" id="file">
+            <input type="file" name="file[]" id="file" multiple="multiple">
             <input type="submit" name="submit" value="unggah">
         </form>
         <div id="status"></div>
