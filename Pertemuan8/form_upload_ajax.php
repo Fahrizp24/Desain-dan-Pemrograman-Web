@@ -12,7 +12,7 @@
                     <input type="file" name="file[]" id="file" class="file-input">
                     <label for="file" class="file-label">Pilih File</label>
                 </div>
-                <button type="submit" name="submit" class="upload-button" id="upload-button" >Unggah</button>
+                <button type="submit" name="submit" class="upload-button" id="upload-button" disabled>Unggah</button>
             </form>
             <div id="status" class="upload-status"></div>
         </div>
