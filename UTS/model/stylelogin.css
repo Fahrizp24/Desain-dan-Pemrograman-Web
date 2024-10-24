@@ -1,0 +1,52 @@
+body {
+    text-align: left;
+}
+
+main {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-login {
+    margin: 10px auto;
+    padding: 30px;
+    background-color: #0a529fd2;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+
+}
+
+.form-login input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 6px;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.kata {
+    margin: 12px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+}

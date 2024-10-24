@@ -1,0 +1,46 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.tableprestasi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #dddddd;
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+}
+ th, td {
+    padding: 15px;
+    text-align: left;
+}
+ th {
+    background-color: #f5f7fa;
+    color: #6c757d;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+ td {
+    font-size: 14px;
+    color: #333;
+}
+main{
+    text-align: center;
+}
+form#form-delete button  {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form#form-delete button  {
+    background-color: #ff1a1a;
+}

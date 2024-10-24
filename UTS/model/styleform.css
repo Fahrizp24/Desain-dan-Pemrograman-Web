@@ -1,0 +1,37 @@
+.form-isi-prestasi {
+    display: flex;
+    columns: 5px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+form{
+    color: #020303;
+}
+main{
+    text-align: center;
+}
+.form-isi-prestasi label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    text-align: left;
+}
+.form-isi-prestasi input[type="text"],input[type="date"],textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+}
+.form-isi-prestasi button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-isi-prestasi button:hover {
+    background-color: #0056b3;
+}
